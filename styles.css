@@ -1,7 +1,7 @@
 /* Write your CSS here! */
 body {
     background-color: powderblue;
-    text-align : center;
+    
     margin-top: 8px;
   margin-bottom: 8px;
   margin-right: 8px;
@@ -14,8 +14,50 @@ body {
     color:red;
     font-size: 60px; 
     text-align: center; 
-    padding-bottom: 70px 
+    padding-bottom: 40px 
   }
   .funParagraph {
     color:green
   }
+ .paragraphL {
+  font-family: Arial, Helvetica, sans-serif;
+  
+ }
+ .paragraphR {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.paragraphHeaders {
+  font-family:Arial, Helvetica, sans-serif;
+  
+  font-size: 50px;
+  margin-top: 20px;
+} 
+.pictureL {
+  
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 12px;
+  width: 30%;
+  height:30%;
+ 
+ }
+.pictureR {
+  
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 12px;
+  width: 30%;
+  height: 30%;
+ }
+figcaption {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 600px;
+  text-align: center;
+  overflow-wrap: normal;
+  margin-top: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+}
