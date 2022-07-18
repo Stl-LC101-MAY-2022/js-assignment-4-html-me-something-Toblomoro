@@ -5,6 +5,9 @@ body {
   
 
   }
+  article{
+    font-family: Arial, Helvetica, sans-serif; 
+  }
   
   #mainHeading{
     color:red;
@@ -15,13 +18,7 @@ body {
   .funParagraph {
     color:green
   }
- .paragraphL {
-  font-family: Arial, Helvetica, sans-serif;
-  
- }
- .paragraphR {
-  font-family: Arial, Helvetica, sans-serif;
-}
+ 
 .paragraphHeaders {
   font-family:Arial, Helvetica, sans-serif;
   
@@ -63,5 +60,5 @@ figcaption {
   text-align: center;
   overflow-wrap: normal;
   margin-top: 12px;
-  font-family: Arial, Helvetica, sans-serif;
+  
 }
