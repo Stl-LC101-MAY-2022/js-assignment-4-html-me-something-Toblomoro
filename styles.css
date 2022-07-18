@@ -1,1 +1,67 @@
 /* Write your CSS here! */
+body {
+  background-color: rgb(222, 236, 237);
+  color:rgb(35, 21, 125);
+  margin: 8px;
+   display: block;
+  
+  
+
+  }
+  article{
+    font-family: Arial, Helvetica, sans-serif; 
+  }
+  
+  #mainHeading{
+    color:red;
+    font-size: 60px; 
+    text-align: center; 
+    padding-bottom: 40px 
+  }
+  .funParagraph {
+    color:green
+  }
+ 
+.paragraphHeaders {
+  font-family:Arial, Helvetica, sans-serif;
+  
+  font-size: 50px;
+  margin-top: 20px;
+} 
+.links {
+  display: block;
+  text-align: center;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.pictureL {
+  
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 12px;
+  width: 30%;
+  height:30%;
+ 
+ }
+.pictureR {
+  
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 12px;
+  width: 30%;
+  height: 30%;
+ }
+figcaption {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 600px;
+  text-align: center;
+  overflow-wrap: normal;
+  margin-top: 12px;
+  
+}
